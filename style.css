@@ -1,0 +1,296 @@
+.outer-container {
+    display: block; /* or inline-block */
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+    border: 2px solid black; /* Add border to outer container */
+  }
+  
+  .col-sm-2 {
+    float: left;
+    flex-direction: row-reverse;
+    padding-left: 100px;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: large;
+  }
+  .p1 {
+    text-decoration: underline;
+    color: blue;
+    font-size: xx-large;
+  }
+  .p2 {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+  }
+  /*.col-12 {
+      padding-top: 100px;
+      padding-left: 500px;
+    }*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: 320px 390px 320px 395px; /* Columns adjusted */
+  
+    grid-gap: 10px; /* Adjust the gap between grid items */
+  }
+  .grid-item {
+    border: 1px solid #ccc; /* Border for visualization */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center content */
+  }
+  .container {
+    overflow: hidden; /* Clip content that extends beyond bounds */
+  }
+  
+  #newregis {
+    background-color: red;
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 100%; /* Adjust as needed */
+  }
+  .full-width-input {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown1 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown2 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown3 {
+    width: 200px;
+    height: 40px;
+  }
+  .full1-width1-input1 {
+    width: 200px;
+    height: 40px;
+  }
+  .full2-width2-input2 {
+    width: 200px;
+    height: 40px;
+  }
+  .full3-width3-input3 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown4 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown5 {
+    width: 200px;
+    height: 40px;
+  }
+  .full4-width4-input4 {
+    width: 200px;
+    height: 40px;
+  }
+  .full5-width5-input5 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown6 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown7 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown8 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown9 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown10 {
+    width: 200px;
+    height: 40px;
+  }
+  .full6-width6-input6 {
+    width: 200px;
+    height: 40px;
+  }
+  .full7-width7-input7 {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .full8-width8-input8 {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .full9-width9-input9 {
+    width: 200px;
+    height: 40px;
+  }
+  .full10-width10-input10 {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  #dropdown11 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown12 {
+    width: 200px;
+    height: 40px;
+  }
+  .full11-width11-input11 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown13 {
+    width: 200px;
+    height: 40px;
+  }
+  .full12-width12-input12 {
+    width: 200px;
+    height: 40px;
+  }
+  .full13-width13-input13 {
+    width: 200px;
+    height: 40px;
+  }
+  .full14-width14-input14 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown14 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown15 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown16 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown17 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown18 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown19 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown20 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown21 {
+    width: 200px;
+    height: 40px;
+  }
+  #dropdown22 {
+    width: 200px;
+    height: 40px;
+  }
+  .full15-width15-input15 {
+    width: 200px;
+    height: 40px;
+  }
+  .full16-width16-input16 {
+    width: 200px;
+    height: 40px;
+  }
+  .full17-width17-input17 {
+    width: 200px;
+    height: 40px;
+  }
+  .full18-width18-input18 {
+    width: 200px;
+    height: 40px;
+  }
+  .full19-width19-input19 {
+    width: 200px;
+    height: 40px;
+  }
+  .full20-width20-input20 {
+    width: 200px;
+    height: 40px;
+  }
+  .red {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      722px
+    ); /* Two columns, each with a width of 500px */
+    gap: 10px; /* Adjust gap as needed */
+  }
+  .full21-width21-input21 {
+    width: 680px;
+    height: 40px;
+  }
+  #green {
+    width: 1432px;
+  }
+  #green2 {
+    background-color: green;
+    color: #ccc;
+    height: 50px;
+    width: 1402px;
+  }
+  
+  /* Media query for screens between 700px and 1400px */
+  @media screen and (min-width: 700px) and (max-width: 1400px) {
+    /* Adjustments for medium-sized screens */
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* Change to two columns */
+    }
+  
+    .grid-item {
+      padding: 10px; /* Adjust padding as needed */
+    }
+  
+    .full-width-input,
+    .full1-width1-input1,
+    .full2-width2-input2,
+    .full3-width3-input3,
+    .full4-width4-input4,
+    .full5-width5-input5,
+    .full6-width6-input6,
+    .full7-width7-input7,
+    .full8-width8-input8,
+    .full9-width9-input9,
+    .full10-width10-input10,
+    .full11-width11-input11,
+    .full12-width12-input12,
+    .full13-width13-input13,
+    .full14-width14-input14,
+    .full15-width15-input15,
+    .full16-width16-input16,
+    .full17-width17-input17,
+    .full18-width18-input18,
+    .full19-width19-input19,
+    .full20-width20-input20,
+    .full21-width21-input21,
+    select {
+      /* Include select elements here */
+      width: 100%; /* Make inputs full width */
+      margin-bottom: 10px; /* Adjust margin as needed */
+    }
+  
+    #green2 {
+      width: 100%; /* Make button full width */
+    }
+  }
+  
+  
+  

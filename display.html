@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display HTML</title>
+  </head>
+  <body>
+    <!-- JavaScript to display the saved HTML content -->
+    <script>
+      window.onload = function () {
+        // Retrieve the saved HTML content from localStorage
+        var savedHTML = localStorage.getItem("savedHTML");
+
+        // Display the saved HTML content
+        document.documentElement.innerHTML = savedHTML;
+      };
+    </script>
+  </body>
+</html>

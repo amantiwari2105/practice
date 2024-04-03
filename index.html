@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+   <!--- <style>
+      .outer-container {
+        display: block; /* or inline-block */
+        width: 100%; /* Adjust width as needed */
+        margin: 0 auto;
+        border: 2px solid black; /* Add border to outer container */
+      }
+
+      .col-sm-2 {
+        float: left;
+        flex-direction: row-reverse;
+        padding-left: 100px;
+        margin-left: 40px;
+        padding: 20px;
+        font-size: large;
+      }
+      .p1 {
+        text-decoration: underline;
+        color: blue;
+        font-size: xx-large;
+      }
+      .p2 {
+        background-color: black;
+        color: white;
+        font-size: xx-large;
+      }
+      /*.col-12 {
+        padding-top: 100px;
+        padding-left: 500px;
+      }*/
+      .grid-container {
+        display: grid;
+        grid-template-columns: 320px 390px 320px 395px; /* Columns adjusted */
+
+        grid-gap: 10px; /* Adjust the gap between grid items */
+      }
+      .grid-item {
+        border: 1px solid #ccc; /* Border for visualization */
+        padding: 10px; /* Adjust padding as needed */
+        text-align: center; /* Center content */
+      }
+      #newregis {
+      
+        padding-top: 100px;
+      }
+      .full-width-input {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown1 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown2 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown3 {
+        width: 200px;
+        height: 40px;
+      }
+      .full1-width1-input1 {
+        width: 200px;
+        height: 40px;
+      }
+      .full2-width2-input2 {
+        width: 200px;
+        height: 40px;
+      }
+      .full3-width3-input3 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown4 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown5 {
+        width: 200px;
+        height: 40px;
+      }
+      .full4-width4-input4 {
+        width: 200px;
+        height: 40px;
+      }
+      .full5-width5-input5 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown6 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown7 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown8 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown9 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown10 {
+        width: 200px;
+        height: 40px;
+      }
+      .full6-width6-input6 {
+        width: 200px;
+        height: 40px;
+      }
+      .full7-width7-input7 {
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+      }
+      .full8-width8-input8 {
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+      }
+      .full9-width9-input9 {
+        width: 200px;
+        height: 40px;
+      }
+      .full10-width10-input10 {
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+      }
+      #dropdown11 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown12 {
+        width: 200px;
+        height: 40px;
+      }
+      .full11-width11-input11 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown13 {
+        width: 200px;
+        height: 40px;
+      }
+      .full12-width12-input12 {
+        width: 200px;
+        height: 40px;
+      }
+      .full13-width13-input13 {
+        width: 200px;
+        height: 40px;
+      }
+      .full14-width14-input14 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown14 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown15 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown16 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown17 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown18 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown19 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown20 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown21 {
+        width: 200px;
+        height: 40px;
+      }
+      #dropdown22 {
+        width: 200px;
+        height: 40px;
+      }
+      .full15-width15-input15 {
+        width: 200px;
+        height: 40px;
+      }
+      .full16-width16-input16 {
+        width: 200px;
+        height: 40px;
+      }
+      .full17-width17-input17 {
+        width: 200px;
+        height: 40px;
+      }
+      .full18-width18-input18 {
+        width: 200px;
+        height: 40px;
+      }
+      .full19-width19-input19 {
+        width: 200px;
+        height: 40px;
+      }
+      .full20-width20-input20 {
+        width: 200px;
+        height: 40px;
+      }
+      .red{
+        display: grid;
+        grid-template-columns: repeat(2, 722px); /* Two columns, each with a width of 500px */
+        gap: 10px; /* Adjust gap as needed */
+    
+      }
+      .full21-width21-input21 {
+        width: 680px;
+        height: 40px;
+      }
+      #green{
+        
+        width: 1432px;
+    
+      }
+      #green2{
+        background-color: green;
+        color: #ccc;
+        height:50px;
+        width:1402px;
+      }
+     
+    /* Media query for screens between 700px and 1400px */
+    @media screen and (min-width: 700px) and (max-width: 1400px) {
+        /* Adjustments for medium-sized screens */
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr); /* Change to two columns */
+        }
+
+        .grid-item {
+            padding: 10px; /* Adjust padding as needed */
+        }
+
+        .full-width-input,
+        .full1-width1-input1,
+        .full2-width2-input2,
+        .full3-width3-input3,
+        .full4-width4-input4,
+        .full5-width5-input5,
+        .full6-width6-input6,
+        .full7-width7-input7,
+        .full8-width8-input8,
+        .full9-width9-input9,
+        .full10-width10-input10,
+        .full11-width11-input11,
+        .full12-width12-input12,
+        .full13-width13-input13,
+        .full14-width14-input14,
+        .full15-width15-input15,
+        .full16-width16-input16,
+        .full17-width17-input17,
+        .full18-width18-input18,
+        .full19-width19-input19,
+        .full20-width20-input20,
+        .full21-width21-input21,
+        select { /* Include select elements here */
+            width: 100%; /* Make inputs full width */
+            margin-bottom: 10px; /* Adjust margin as needed */
+        }
+
+        #green2 {
+            width: 100%; /* Make button full width */
+        }
+    }  
+    </style>-->
+  </head>
+  <body>
+    <div class="outer-container">
+    <div class="container">
+      <div class="row row-cols-5">
+        <div class="col-sm-2">
+          <a class="p1">New Registration</a>
+        </div>
+        <div class="col-sm-2"><a class="p1">View Registration</a></div>
+        <div class="col-sm-2"><a class="p1">Logout</a></div>
+        <div class="col-sm-2"><button class="p2">Days Left: 20</button></div>
+        <div class="col-sm-2"><h2>Welcome Aman Tiwari</h2></div>
+        </div>
+
+    </div>
+    <div class="row">
+      <div class="col-12" id="newregis">
+        <h1 style="background-color: red; text-align: center">
+          *New Registrations*
+        </h1>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item small column"><h2>Name*</h2></div>
+      <div class="grid-item small column">
+        <input
+          type="text"
+          id="input1"
+          placeholder="Type here..."
+          class="full-width-input"
+        />
+      </div>
+      <div class="grid-item"><h2>Gender*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown1">
+          <option value="option1">Select Gender</option>
+          <option value="option2">Male</option>
+          <option value="option3">Female</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Age*</h2></div>
+      <div class="grid-item">
+        <input
+          type="number"
+          id="input2"
+          placeholder="Type here..."
+          class="full1-width1-input1"
+        />
+      </div>
+      <div class="grid-item"><h2>Marital Status*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown2">
+          <option value="option1">Select</option>
+          <option value="option2">Married</option>
+          <option value="option3">Unmarried</option>
+          <option value="option4">Widowed</option>
+          <option value="option5">Divorced</option>
+          <option value="option6">Separated</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Education*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown3">
+          <option value="option1">Select</option>
+          <option value="option2">MCA</option>
+          <option value="option3">Student</option>
+          <option value="option4">Law</option>
+          <option value="option5">Diploma</option>
+          <option value="option6">Bachelor in Computer Science</option>
+          <option value="option7">Master in Computer Science</option>
+          <option value="option8">Bachelor in Engineering</option>
+          <option value="option9">Master in Engineering</option>
+          <option value="option10">Bachelor in Science</option>
+          <option value="option11">Master in Science</option>
+          <option value="option12">Bachelor in Arts/Commerce</option>
+          <option value="option13">Master in Arts/Commerce</option>
+          <option value="option14">Medicine</option>
+          <option value="option15">Management</option>
+          <option value="option16">Phd</option>
+          <option value="option17">Law Student Diploma</option>
+          <option value="option18">High School</option></select>
+      </div>
+      <div class="grid-item"><h2>Education in Detail*</h2></div>
+      <div class="grid-item">
+        <input
+          type="text"
+          id="input3"
+          placeholder="Type here..."
+          class="full2-width2-input2"
+        />
+      </div>
+      <div class="grid-item"><h2>Occupation*</h2></div>
+      <div class="grid-item">
+        <input
+          type="text"
+          id="input4"
+          placeholder="Type here..."
+          class="full3-width3-input3"
+        />
+      </div>
+      <div class="grid-item"><h2>Religion*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown4">
+          <option value="option1">Select</option>
+          <option value="option2">Hindu</option>
+          <option value="option3">Muslim</option>
+          <option value="option4">Muslim - Shia</option>
+          <option value="option5">Muslim - Sunni</option>
+          <option value="option6">Christrian</option>
+          <option value="option7">Christrian - Catholic</option>
+          <option value="option8">Christrian - Orthodox</option>
+          <option value="option9">Christrian - Protestant</option>
+          <option value="option10">Sikh</option>
+          <option value="option11">Jain</option>
+          <option value="option12">Jain - Digambar</option>
+          <option value="option13">Jain - Shwetambar</option>
+          <option value="option14">Buddhist</option>
+          <option value="option15">Parsi</option>
+          <option value="option16">Zoroastrian</option>
+          <option value="option16">Inter Religion</option>
+
+                </select>
+      </div>
+      <div class="grid-item"><h2>Caste*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown5">
+          <option value="option1">Select</option>
+          <option value="option2">Caste does not matter</option>
+          <option value="option3">Unspecified/others</option>
+          <option value="option4">6000 Niyogi</option>
+          <option value="option5">96K Kokanastha</option>
+          <option value="option6">Ad Dharmi</option>
+          <option value="option7">Ad Dravida</option>
+          <option value="option8">Agarwal</option>
+          <option value="option9">Agnikula Kshatriya</option>
+          <option value="option10">Agri</option>
+          <option value="option11">Ahom</option>
+          <option value="option12">Ambalavasi</option>
+          <option value="option13">Anavil Brahmin</option>
+          <option value="option14">Ansari</option>
+          <option value="option15">Arian</option>
+          <option value="option16">Arora</option>
+          <option value="option17">Arunthatiyar</option>
+          <option value="option18">Arya Vysya</option>
+          <option value="option19">Aryasamaj</option>
+          <option value="option20">Awan</option>
+          <option value="option21">Bahi</option>
+          <option value="option22">Baidya</option>
+          <option value="option23">Baishnab</option>
+          <option value="option24">Balija</option>
+          <option value="option25">Brahmin - Goswami</option>
+          <option value="option26">Brahmin - Gurukkal</option>
+          <option value="option27">Brahmin - Havyaka</option>
+          <option value="option28">Brahmin - Hoysala</option>
+          <option value="option29">Brahmin - Iyengar</option>
+          <option value="option30">Brahmin - Iyer</option>
+          <option value="option31">Brahmin - Madhwa</option>
+          <option value="option32">Brahmin - Mohval</option>
+          <option value="option33">Kapu</option>
+          <option value="option34">Kashyap</option>
+          <option value="option35">Khatri</option>
+          <option value="option36">Khoja</option>
+          <option value="option37">Malayalee Variar</option>
+          <option value="option38">Mali</option>
+          <option value="option39">Malik</option>
+          <option value="option40">Malla</option>
+          <option value="option41">Manipuri</option>
+          <option value="option42">Maratha</option>
+          <option value="option43">Maravar</option>
+          <option value="option44">Nepali</option>
+          <option value="option45">Nayaka</option>
+          <option value="option46">Nhavi</option>
+          <option value="option47">OBC</option>
+          <option value="option48">Oswal</option>
+          <option value="option49">Padmasali</option>
+          <option value="option50">Pal</option>
+          <option value="option51">Panchal</option>
+          <option value="option52">Panicker</option>
+          <option value="option53">Pillai</option>
+          <option value="option54">Porwal</option>
+          <option value="option55">Sindhi - Lohana</option>
+          <option value="option56">Sindhi - Rohini</option>
+          <option value="option57">Sindhi Sakkhar</option>
+          <option value="option58">Sindhi - Sehwani</option>
+          <option value="option59">Soni</option>
+          <option value="option60">Sonar</option>
+          <option value="option61">Sozhiya Vellalar</option>
+          <option value="option62">Syrian - Catholic</option>
+          <option value="option63">Vania</option>
+          <option value="option64">Vannar</option>
+          <option value="option65">Vannia Kula Kshatriyar</option>
+          <option value="option66">Vanniyar</option>
+          <option value="option67">Yadava Tamil</option>
+          <option value="option68">Vishwakarma</option>
+          <option value="option69">Vilakkiathala Nair</option>
+          <option value="option70">Nair</option>
+          <option value="option71">Nai</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Sub Caste*</h2></div>
+      <div class="grid-item">
+        <input
+          type="text"
+          id="input5"
+          placeholder="Type here..."
+          class="full4-width4-input4"
+        />
+      </div>
+      <div class="grid-item"><h2>Gotra(m)*</h2></div>
+      <div class="grid-item">
+        <input
+          type="text"
+          id="input6"
+          placeholder="Type here..."
+          class="full5-width5-input5"
+        />
+      </div>
+      <div class="grid-item"><h2>Mother Tongue*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown6">
+          <option value="option1">Select</option>
+          <option value="option2">Adi</option>
+          <option value="option3">Assamese</option>
+          <option value="option4">Awadhi</option>
+          <option value="option5">Bengali</option>
+          <option value="option6">Bhojhpuri</option>
+          <option value="option7">Bihari</option>
+          <option value="option8">Chhattisgarhi</option>
+          <option value="option9">Dogri</option>
+          <option value="option10">English</option>
+          <option value="option11">Gondi</option>
+          <option value="option12">Gujarati</option>
+          <option value="option13">Harayanavi</option>
+          <option value="option14">Himachali</option>
+          <option value="option15">Hindi</option>
+          <option value="option16">Kanauji</option>
+          <option value="option17">Kannada</option>
+          <option value="option18">Lakher</option>
+          <option value="option19">Urdu</option>
+          <option value="option20">French</option>
+          <option value="option21">Italian</option>
+          <option value="option22">Chetty</option>
+          <option value="option23">Marathi</option>
+          <option value="option24">Punjabi</option>
+          <option value="option25">Tamil</option>
+          <option value="option26">Malayalam</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Horoscope Match*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown7">
+          <option value="option1">Select</option>
+          <option value="option2">Essential</option>
+          <option value="option3">Not Essential</option>
+          <option value="option4">Not Applicable</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Star*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown8">
+          <option value="option1">Select</option>
+          <option value="option2">Krithika</option>
+          <option value="option3">Do not know</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Raasi/Moon Sign*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown9">
+          <option value="option1">Select</option>
+          <option value="option2">Aries (Mesha(m))</option>
+          <option value="option3">Taurus (Rishabam / Vrishaba)</option>
+          <option value="option4">Gemini (Mithuna(m))</option>
+          <option value="option5">Cancer (Kataka(m))</option>
+          <option value="option6">Leo (Simha(m))</option>
+          <option value="option7">Virgo (Kanni/Kanya)</option>
+          <option value="option8">Libra (Thula)</option>
+          <option value="option9">Scorpio (Vrichiga(m) / Vrishchika)</option>
+          <option value="option10">Sagittarius (Dhanus)</option>
+          <option value="option11">Capricorn (Makara(m))</option>
+          <option value="option12">Aquarius (Kumba(m))</option>
+          <option value="option13">Pisces (Meena(m))</option>
+          <option value="option14">Do not know</option></select>
+      </div>
+      <div class="grid-item"><h2>Dosham/Mangalik*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown10">
+          <option value="option1">Select</option>
+          <option value="option2">Yes</option>
+          <option value="option3">No</option>
+          <option value="option4">Do not know</option>
+        </select>
+      </div>
+      <div class="grid-item"><h2>Height*</h2></div>
+      <div class="grid-item">
+        <input
+          type="number"
+          id="input7"
+          placeholder="Feet"
+          class="full6-width6-input6"
+        />
+        <input
+          type="number"
+          id="input8"
+          placeholder="Inches"
+          class="full7-width7-input7"
+        />
+        <input
+          type="number"
+          id="input9"
+          placeholder="Centimetre"
+          class="full8-width8-input8"
+        />
+      </div>
+      <div class="grid-item"><h2>Weight*</h2></div>
+      <div class="grid-item">
+        <input
+          type="number"
+          id="input10"
+          placeholder="kg"
+          class="full9-width9-input9"
+        />
+        <input
+          type="number"
+          id="input11"
+          placeholder="lbs"
+          class="full10-width10-input10"
+        />
+      </div>
+      <div class="grid-item"><h2>Citizenship*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown11">
+          <option value="option1">Select</option>
+          <option value="option2">India</option>
+          <option value="option3">Singapore</option>
+          <option value="option4">Malaysia</option>
+          <option value="option5">United States of America</option>
+          <option value="option6">Cannada</option>
+          <option value="option7">United Kingdom</option>
+          <option value="option8">Australia</option>
+          <option value="option9">Afghanistan</option>
+          <option value="option10">American Samoa</option>
+          <option value="option11">United Arab Emirates</option>
+          <option value="option12">America</option>
+          <option value="option13">France</option>
+          <option value="option14">Germany</option>
+          <option value="option15">Ghana</option>
+          <option value="option16">Greece</option>
+          <option value="option17">Greenland</option>
+          <option value="option18">Pakistan</option>
+          <option value="option19">Europe</option>
+          <option value="option20">Britain</option>
+          <option value="option21">Ireland</option>
+          <option value="option22">New Zealand</option>
+          <option value="option23">Brazil</option>
+          <option value="option24">China</option>
+         </select>
+      </div>
+      <div class="grid-item"><h2>Home State/ Territory*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown12">
+          <option value="option1">Andaman and Nicobar Islands</option>
+          <option value="option2">Andhra Pradesh</option>
+          <option value="option3">Arunachal Pradesh</option>
+          <option value="option4">Assam</option>
+          <option value="option5">Bihar</option>
+          <option value="option6">Chhattisgarh</option>
+          <option value="option7">Chandigargh</option>
+          <option value="option8">Delhi</option>
+          <option value="option9">Goa</option>
+          <option value="option10">Gujarat</option>
+          <option value="option11">Haryana</option>
+          <option value="option12">Himachal Pradesh</option>
+          <option value="option13">Jammu & Kashmir</option>
+          <option value="option14">Karnataka</option>
+          <option value="option15">Kerala</option>
+          <option value="option16">Lakshadweep</option>
+          <option value="option17">Madhya Pradesh</option>
+          <option value="option18">Maharashtra</option>
+          <option value="option19">Manipur</option>
+          <option value="option20">Meghalaya</option>
+          <option value="option21">Mizoram</option>
+          <option value="option22">Nagaland</option>
+          <option value="option23">Orissa</option>
+          <option value="option24">Pondicherry</option>
+          <option value="option25">Punjab</option>
+          <option value="option26">Rajasthan</option>
+          <option value="option27">Sikkim</option>
+          <option value="option28">Tamil Nadu</option>
+         </select>
+      </div>
+      <div class="grid-item"><h2>Home City/ District*</h2></div>
+      <div class="grid-item">
+        <input
+          type="text"
+          id="input12"
+          placeholder="Type here..."
+          class="full11-width11-input11"
+        />
+      </div>
+      <div class="grid-item"><h2>Country Living In*</h2></div>
+      <div class="grid-item">
+        <select id="dropdown13">
+          <option value="option1">Select</option>
+          <option value="option2">India</option>
+          <option value="option3">Singapore</option>
+          <option value="option4">Malaysia</option>
+          <option value="option5">United States of America</option>
+          <option value="option6">Cannada</option>
+          <option value="option7">United Kingdom</option>
+          <option value="option8">Australia</option>
+          <option value="option9">Afghanistan</option>
+          <option value="option10">American Samoa</option>
+          <option value="option11">United Arab Emirates</option>
+          <option value="option12">America</option>
+          <option value="option13">France</option>
+          <option value="option14">Germany</option>
+          <option value="option15">Ghana</option>
+          <option value="option16">Greece</option>
+          <option value="option17">Greenland</option>
+          <option value="option18">Pakistan</option>
+          <option value="option19">Europe</option>
+          <option value="option20">Britain</option>
+          <option value="option21">Ireland</option>
+          <option value="option22">New Zealand</option>
+          <option value="option23">Brazil</option>
+          <option value="option24">China</option>
+           </select>
+      </div>
+      <div class="grid-item"><h2>State/ City Living In*</h2></div>
+      <div class="grid-item"><input
+        type="text"
+        id="input13"
+        placeholder="Type here..."
+        class="full12-width12-input12" />
+      </div>
+      <div class="grid-item"><h2>Email*</h2></div>
+      <div class="grid-item"><input
+        type="text"
+        id="input14"
+        placeholder="idno_firstname_lastname@rediffmail.com"
+        class="full13-width13-input13" /></div>
+  
+    <div class="grid-item"><h2>Re-Type Email*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input15"
+      placeholder="idno_firstname_lastname@rediffmail.com"
+      class="full14-width14-input14" /></div>
+    <div class="grid-item"><h2>Body Type*</h2></div>
+    <div class="grid-item">
+    <select id="dropdown14">
+      <option value="option1">Athletic</option>
+      <option value="option2">Slim</option>
+      <option value="option3">average</option>
+    </select></div>
+    <div class="grid-item"><h2>Complexion*</h2></div>
+    <div class="grid-item"><select id="dropdown15">
+      <option value="option1">Select</option>
+      <option value="option2">Very Fair</option>
+      <option value="option3">Fair</option>
+      <option value="option3">Wheatish</option>
+      <option value="option3">Wheatish Brown</option>
+      <option value="option3">Dark</option>
+    </select></div>
+    <div class="grid-item"><h2>Physical Status*</h2></div>
+    <div class="grid-item"><select id="dropdown16">
+      <option value="option1">Select</option>
+      <option value="option2">Normal</option>
+      <option value="option3">Physically Challenge</option>
+    </select></div>
+    <div class="grid-item"><h2>Eating Habit*</h2></div>
+    <div class="grid-item"><select id="dropdown17">
+      <option value="option1">Select</option>
+      <option value="option2">Vegetarian</option>
+      <option value="option3">Non-Vegetarian</option>
+      <option value="option4">Eggetarian</option>
+    </select></div>
+    <div class="grid-item"><h2>Smoking Habit*</h2></div>
+    <div class="grid-item"><select id="dropdown18">
+      <option value="option1">Select</option>
+      <option value="option2">Non-Smoker</option>
+      <option value="option3">Light-Social-Smoke</option>
+      <option value="option4">Frequent-Smoker</option>
+    </select></div>
+    <div class="grid-item"><h2>Drinking Habit*</h2></div>
+    <div class="grid-item"><select id="dropdown19">
+      <option value="option1">Select</option>
+      <option value="option2">Non-Drinker</option>
+      <option value="option3">Light/Social-Drinker</option>
+      <option value="option4">Frequent-Drinker</option>
+    </select></div>
+    <div class="grid-item"><h2>Your Family Value*</h2></div>
+    <div class="grid-item"><select id="dropdown20">
+      <option value="option1">Select</option>
+      <option value="option1">Orthodox</option>
+      <option value="option2">Traditional</option>
+      <option value="option3">Moderate</option>
+      <option value="option4">Liberal</option>
+    </select></div>
+    <div class="grid-item"><h2>Family Type*</h2></div>
+    <div class="grid-item"><select id="dropdown21">
+      <option value="option1">Select</option>
+      <option value="option1">Nuclear Family</option>
+      <option value="option2">Joint Family</option>
+      <option value="option3">Others</option>
+      </select></div>
+    <div class="grid-item"><h2>Your Family Status*</h2></div>
+    <div class="grid-item"><select id="dropdown22">
+      <option value="option1">Select</option>
+      <option value="option2">Middle Class</option>
+      <option value="option3">Upper Middle Class</option>
+      <option value="option4">Rich/ Affluent</option>
+      </select></div>
+    <div class="grid-item"><h2>His/Her Annual Income*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input16"
+      placeholder="Type here..."
+      class="full15-width15-input15" /></div>
+    <div class="grid-item"><h2>About Family*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input17"
+      placeholder="Type here..."
+      class="full16-width16-input16" /></div>
+    <div class="grid-item"><h2>More Description*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input18"
+      placeholder="Type here..."
+      class="full17-width17-input17" /></div>
+    <div class="grid-item"><h2>Your Expectation*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input19"
+      placeholder="Type here..."
+      class="full18-width18-input18" /></div>
+    <div class="grid-item"><h2>Password*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input20"
+      placeholder="idnofirstnamelastname"
+      class="full19-width19-input19" /></div>
+    <div class="grid-item"><h2>Re-Type Password*</h2></div>
+    <div class="grid-item"><input
+      type="text"
+      id="input21"
+      placeholder="idnofirstnamelastname"
+      class="full20-width20-input20" /></div>
+      <div class="grid-container red">
+        <div class="grid-item col-6"><h2>How do you know about us?*</h2></div>
+        <div class="grid-item col-6"><input
+          type="text"
+          id="input22"
+          placeholder="Type here.."
+          class="full21-width21-input21" />
+      </div>
+      <div class="grid-item col-6" id="green"><button id="green2"  onclick="saveAndRedirect()">Submit Form</button></div>
+      </div>
+      </div>
+
+    
+    
+    
+    <script>
+      function saveAndRedirect() {
+        // Get the HTML content of the current page
+        var htmlContent = document.documentElement.outerHTML;
+        
+        // Save the HTML content to localStorage
+        localStorage.setItem('savedHTML', htmlContent);
+        
+        // Redirect to display.html
+        window.location.href = 'display.html';
+      }
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const textInputs = document.querySelectorAll('input[type="text"]');
+          const numberInputs = document.querySelectorAll('input[type="number"]');
+          const selectInputs = document.querySelectorAll('select');
+          const submitButton = document.getElementById('green2');
+
+          function handleKeyPress(event) {
+              if (event.key === 'Enter') {
+                  // Reload the page
+                  location.reload();
+              }
+          }
+
+          textInputs.forEach(function(input) {
+              input.addEventListener('keypress', handleKeyPress);
+          });
+
+          numberInputs.forEach(function(input) {
+              input.addEventListener('keypress', handleKeyPress);
+          });
+
+          selectInputs.forEach(function(select) {
+              select.addEventListener('keypress', handleKeyPress);
+          });
+
+          submitButton.addEventListener('click', redirectToDisplayPage);
+
+          function redirectToDisplayPage() {
+              window.location.href = 'display.html';
+          }
+      });
+  </script>
+</body>
+      </body>
+</html>
+
+
